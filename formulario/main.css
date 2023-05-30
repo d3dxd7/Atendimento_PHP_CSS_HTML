@@ -1,0 +1,99 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(12, 33, 43));
+    color: white;
+    font-size: 20px;
+}
+
+.sistema{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    border:3px solid dodgerblue;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+/* */
+.box{
+    position: absolute;/* Oculpa elemento dela mesma! */
+    top: 50%; /* TOPO */
+    left: 50%; /* ESQUERDA */
+    transform: translate(-50%, -50%); /* y -50% , x - 50% */
+    background-color: rgba(0, 0,0, 0.6);
+    padding: 15px; /* Tamanho(Espesura) */
+    border-radius: 15px; /* RAIO DA BORDA */
+    width: 20%; /* LARGURA */
+}
+
+fieldset{
+    border:3px solid dodgerblue;
+}
+
+legend{
+    border:3px solid dodgerblue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.credit{
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.inputBox{
+    position: relative;
+}
+.input-user{
+    background: none; /*Backgroud Nulo*/
+    border: none; /*Borda Nulo*/
+    border-bottom: 1px solid white;  /*Adiciona Linha Buttom = Abaixo*/ 
+    outline: none;/*Tira Linhas do Input*/
+    color: white;
+    font-size: 15px;
+    width: 100%;/*Deixa todo tamanhao do Input Preenchendo 100%*/
+    letter-spacing: 2px;/*da espaco de 2px nas letras digitadas dentro do Input*/
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;/*None = Qualquer lugar que eu Clica dentro do input ele vai executar a acao! */
+    transition: .5px;
+}
+
+.input-user:focus ~ .labelInput,/*Cria Efeito de Evento Focus que faz Subir Letra*/
+.input-user:valid ~ .labelInput {/*Cria Efeito de Evento Valido para Fixar Testo Digitado*/
+    top: -20px; /*Quando Clica Input sobre testo*/
+    font-size: 15px;
+    color: dodgerblue;
+}
+
+#data_nasc{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit {
+    background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,195));
+}
