@@ -7,9 +7,10 @@ body{
     font-size: 20px;
 }
 
+
 .sistema{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding: 10px;
     border:3px solid dodgerblue;
     border-radius: 15px;
@@ -83,7 +84,9 @@ legend{
     outline: none;
     font-size: 15px;
 }
-
+#data {
+    font-size: 18px;
+}
 #submit {
     background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
     width: 100%;
@@ -96,4 +99,96 @@ legend{
 }
 #submit:hover{
     background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,195));
+}
+
+
+#submit-gerenciamento {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.body-result {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20,147,220), rgb(12, 33, 43));
+    color: white;
+    font-size: 20px;
+}
+
+.div-result {
+    position: absolute;/* Oculpa elemento dela mesma! */
+    top: 20%; /* TOPO */
+    left: 50%; /* ESQUERDA */
+    transform: translate(-50%, -50%); /* y -50% , x - 50% */
+    background-color: rgba(0, 0,0, 0.6);
+    padding: 20px; /* Tamanho(Espesura) */
+    border-radius: 15px; /* RAIO DA BORDA */
+    width: 70%; /* LARGURA */
+}
+
+.legend-gerencia{
+    border:3px solid dodgerblue;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.credit-gerencia{
+    margin-left: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#submit-gerencia {
+    background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    width: 15%;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#submit-gerencia:hover{
+    background-image: linear-gradient(to right, rgb(0,80,172), rgb(52, 14, 124));
+}
+
+.div-gerencia{
+    margin-left: 25%;
+}
+
+.btn-voltar {
+    margin-left: 1%;
+    background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    width: 15%;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-voltar:hover{
+    background-image: linear-gradient(to right, rgb(0,80,172), rgb(52, 14, 124));
+}
+
+.btn-voltar-link {
+    margin-left: 1%;
+    background-image: none;
+    width: 20%;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
 }
