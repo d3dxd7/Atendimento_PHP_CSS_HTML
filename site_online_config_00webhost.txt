@@ -1,0 +1,10 @@
+https://br.000webhost.com/
+user site :
+lucas.matheusgorni@hotmail.com
+senha:padrao_email(oculta) Contem @
+
+00WebHost - Site Online
+
+nome bd: id20843527_gerenciamento_atendimento
+usuario bd: id20843527_root
+senha: padrao_email(oculta)
